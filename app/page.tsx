@@ -10,7 +10,7 @@ export default async function HomePage() {
 			<div className="flex items-start my-8 flex-col md:flex-row gap-6">
 				<Image
 					alt={name}
-					className="rounded-lg grayscale"
+					className="rounded-lg grayscale -z-10"
 					src={avatar}
 					placeholder="blur"
 					width={110}
