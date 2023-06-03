@@ -18,10 +18,10 @@ export const metadata: Metadata = {
 		default: 'Nurçin Özer',
 		template: '%s | Nurçin Özer',
 	},
-	description: 'Developer, writer, and creator.',
+	description: 'Frontend engineer with a passion for building products.',
 	openGraph: {
 		title: 'Nurçin Özer',
-		description: 'Developer, writer, and creator.',
+		description: 'Frontend engineer with a passion for building products.',
 		url: 'https://nurcin.dev',
 		siteName: 'Nurçin Özer',
 		locale: 'en-US',
