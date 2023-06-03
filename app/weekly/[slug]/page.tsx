@@ -24,8 +24,14 @@ export async function generateMetadata({
 		title,
 		publishedAt: publishedTime,
 		summary: description,
+		image,
 		slug,
 	} = post;
+
+	const ogImage = image
+		? `https://nurcin.dev${image}`
+		: `https://nurcin.dev/api/og?title=${title}`;
+
 	return {
 		title,
 		description,
@@ -35,11 +41,17 @@ export async function generateMetadata({
 			type: 'article',
 			publishedTime,
 			url: `https://nurcin.dev/weekly/${slug}`,
+			images: [
+				{
+					url: ogImage,
+				},
+			],
 		},
 		twitter: {
 			card: 'summary_large_image',
 			title,
 			description,
+			images: [ogImage],
 		},
 	};
 }
