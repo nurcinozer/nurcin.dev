@@ -5,8 +5,18 @@ export default function AboutPage() {
 		<section>
 			<h1 className="font-bold text-3xl font-serif">About Me</h1>
 			<p className="my-5 text-neutral-800 dark:text-neutral-200">
-				I'm a Frontend Engineer at Winden where my role involves helping
-				build a more efficient and user-friendly web experience.
+				I'm a{' '}
+				<b>
+					Frontend Engineer at{' '}
+					<a
+						href="https://winden.co"
+						target="_blank"
+						rel="noopener noreferrer">
+						Winden
+					</a>{' '}
+				</b>{' '}
+				where my role involves helping build a more efficient and
+				user-friendly web experience.
 			</p>
 
 			<hr className="my-8 border-neutral-200 dark:border-neutral-700" />
@@ -21,12 +31,14 @@ export default function AboutPage() {
 			<p className="my-5 text-neutral-800 dark:text-neutral-200">
 				I studied Software Engineering at Bahçeşehir University and
 				gained a solid foundation in frontend development. I have
-				expertise in technologies such as TypeScript, ReactJS, NextJS,
-				and Tailwind CSS. Through internships and work experiences, I've
-				honed my skills in hooks, state management,
-				asynchronous/reactive programming, REST API, and GraphQL.
-				Additionally, I have strong proficiency in system design and
-				refactoring, ensuring efficient and scalable code.
+				expertise in technologies such as <b>TypeScript</b>,{' '}
+				<b>ReactJS</b>, <b>NextJS</b>, and <b>Tailwind CSS</b>. Through
+				internships and work experiences, I've honed my skills in{' '}
+				<b>hooks</b>,<b>state management</b>,{' '}
+				<b>asynchronous/reactive programming</b>, <b>REST API</b>, and{' '}
+				<b>GraphQL</b>. Additionally, I have strong proficiency in
+				system design and refactoring, ensuring efficient and scalable
+				code.
 			</p>
 
 			<p className="my-5 text-neutral-800 dark:text-neutral-200">
@@ -49,7 +61,7 @@ export default function AboutPage() {
 					target="_blank"
 					href="mailto:nrcinozer@gmail.com">
 					<ArrowIcon />
-					<p className="h-7">send me an email</p>
+					<p className="h-7">Send me an email</p>
 				</a>
 			</li>
 		</section>
