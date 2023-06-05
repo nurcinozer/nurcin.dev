@@ -13,9 +13,9 @@ export default async function BlogPage() {
 		<section className="border border-neutral-200 dark:border-neutral-800 rounded-lg p-8">
 			<h1 className="font-bold text-3xl font-serif">Weekly</h1>
 			<p className="my-5 text-neutral-800 dark:text-neutral-200">
-				Every week I write a short post about what I've been reading,
-				watching, and learning. I also share some of my favorite links
-				from around the web.
+				I am sharing a short post on what I’ve been reading, watching,
+				and learning as well as a few favourite links from the web every
+				week.
 			</p>
 			<hr className="my-8 border-neutral-200 dark:border-neutral-700" />
 			{allBlogs
