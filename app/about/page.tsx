@@ -36,7 +36,7 @@ export default function AboutPage() {
 				internships and work experiences, I've honed my skills in{' '}
 				<b>hooks</b>, <b>state management</b>,{' '}
 				<b>asynchronous/reactive programming</b>, <b>REST API</b>, and{' '}
-				<b>GraphQL</b>. Additionally, I have strong proficiency in
+				<b>GraphQL</b>. Additionally, I have strong proficiency in{' '}
 				<b>system design</b> and <b>refactoring</b>, ensuring efficient
 				and scalable code.
 			</p>
