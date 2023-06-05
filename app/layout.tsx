@@ -5,14 +5,6 @@ import localFont from 'next/font/local';
 import Sidebar from '../components/sidebar';
 import { Analytics } from '@vercel/analytics/react';
 import Spotify from 'components/spotify';
-import {
-	ArrowIcon,
-	BookmarkIcon,
-	GitHubIcon,
-	TwitterIcon,
-	YoutubeIcon,
-} from 'components/icons';
-import { getRaindropBookmarks } from 'lib/metrics';
 
 const kaisei = localFont({
 	src: '../public/fonts/kaisei-tokumin-latin-700-normal.woff2',
@@ -71,14 +63,6 @@ export default async function RootLayout({
 }: {
 	children: React.ReactNode;
 }) {
-	let raindropBookmarks;
-
-	try {
-		[raindropBookmarks] = await Promise.all([getRaindropBookmarks()]);
-	} catch (error) {
-		console.error(error);
-	}
-
 	return (
 		<html
 			lang="en"
@@ -90,49 +74,10 @@ export default async function RootLayout({
 				<Sidebar />
 				<Spotify />
 				<div className="flex flex-col">
-					<main className="flex-auto min-w-0 mt-6 md:mt-0 flex flex-col border border-neutral-200 dark:border-neutral-800 rounded-lg p-4">
+					<main className="flex-auto min-w-0 mt-6 md:mt-0 flex flex-col">
 						{children}
 						<Analytics />
 					</main>
-					<div className="flex flex-col md:flex-row gap-2 md:gap-2 mt-5">
-						<a
-							rel="noopener noreferrer"
-							target="_blank"
-							href="https://twitter.com/nurcinozer"
-							className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between">
-							<div className="flex items-center">
-								<TwitterIcon />
-								<div className="ml-3">My tweets</div>
-							</div>
-							<ArrowIcon />
-						</a>
-						<a
-							rel="noopener noreferrer"
-							target="_blank"
-							href="https://github.com/nurcinozer"
-							className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between">
-							<div className="flex items-center">
-								<GitHubIcon />
-								<div className="ml-3">My projects</div>
-							</div>
-							<ArrowIcon />
-						</a>
-						<a
-							rel="noopener noreferrer"
-							target="_blank"
-							href="https://raindrop.io/nurcin/nurcins-bookmarks-34870461"
-							className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between">
-							<div className="flex items-center">
-								<BookmarkIcon />
-								<div className="ml-3">
-									{raindropBookmarks === 1
-										? `${raindropBookmarks.toLocaleString()} bookmark`
-										: `${raindropBookmarks.toLocaleString()} bookmarks`}
-								</div>
-							</div>
-							<ArrowIcon />
-						</a>
-					</div>
 				</div>
 			</body>
 		</html>

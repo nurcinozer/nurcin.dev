@@ -2,7 +2,7 @@ import { ArrowIcon } from 'components/icons';
 
 export default function AboutPage() {
 	return (
-		<section>
+		<section className="border border-neutral-200 dark:border-neutral-800 rounded-lg p-4">
 			<h1 className="font-bold text-3xl font-serif">About Me</h1>
 			<p className="my-5 text-neutral-800 dark:text-neutral-200">
 				I'm a{' '}
@@ -34,11 +34,11 @@ export default function AboutPage() {
 				expertise in technologies such as <b>TypeScript</b>,{' '}
 				<b>ReactJS</b>, <b>NextJS</b>, and <b>Tailwind CSS</b>. Through
 				internships and work experiences, I've honed my skills in{' '}
-				<b>hooks</b>,<b>state management</b>,{' '}
+				<b>hooks</b>, <b>state management</b>,{' '}
 				<b>asynchronous/reactive programming</b>, <b>REST API</b>, and{' '}
 				<b>GraphQL</b>. Additionally, I have strong proficiency in
-				system design and refactoring, ensuring efficient and scalable
-				code.
+				<b>system design</b> and <b>refactoring</b>, ensuring efficient
+				and scalable code.
 			</p>
 
 			<p className="my-5 text-neutral-800 dark:text-neutral-200">

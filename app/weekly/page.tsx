@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { allBlogs } from 'contentlayer/generated';
-import ViewCounter from './view-counter';
 import { ArrowIcon } from 'components/icons';
 
 export const metadata: Metadata = {
@@ -11,7 +10,7 @@ export const metadata: Metadata = {
 
 export default async function BlogPage() {
 	return (
-		<section>
+		<section className="border border-neutral-200 dark:border-neutral-800 rounded-lg p-4">
 			<h1 className="font-bold text-3xl font-serif">Weekly</h1>
 			<p className="my-5 text-neutral-800 dark:text-neutral-200">
 				Every week I write a short post about what I've been reading,

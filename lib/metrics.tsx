@@ -1,7 +1,6 @@
 import 'server-only';
 
 import { Octokit } from '@octokit/rest';
-import { queryBuilder } from 'lib/planetscale';
 import { cache } from 'react';
 
 export const getRaindropBookmarks = cache(async () => {
