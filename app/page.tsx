@@ -23,7 +23,7 @@ export default async function HomePage() {
 		<>
 			<section className="border border-neutral-200 dark:border-neutral-800 rounded-lg p-8">
 				<h1 className="font-bold text-3xl font-serif">{name}</h1>
-				<div className="flex items-start my-8 flex-col md:flex-row gap-6">
+				<div className="flex items-start mt-8 flex-col md:flex-row gap-6">
 					<Image
 						alt={name}
 						className="rounded-lg grayscale -z-10"
