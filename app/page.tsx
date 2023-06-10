@@ -6,18 +6,18 @@ import {
 	GitHubIcon,
 	BookmarkIcon,
 } from 'components/icons';
-import { getRaindropBookmarks } from 'lib/metrics';
+// import { getRaindropBookmarks } from 'lib/metrics';
 
 export const revalidate = 60;
 
 export default async function HomePage() {
-	let raindropBookmarks;
+	// let raindropBookmarks;
 
-	try {
-		[raindropBookmarks] = await Promise.all([getRaindropBookmarks()]);
-	} catch (error) {
-		console.error(error);
-	}
+	// try {
+	// 	[raindropBookmarks] = await Promise.all([getRaindropBookmarks()]);
+	// } catch (error) {
+	// 	console.error(error);
+	// }
 
 	return (
 		<>
@@ -72,9 +72,7 @@ export default async function HomePage() {
 					className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between">
 					<div className="flex items-center">
 						<BookmarkIcon />
-						<div className="ml-3">
-							{`My ${raindropBookmarks.toLocaleString()} bookmarks`}
-						</div>
+						<div className="ml-3">My bookmarks</div>
 					</div>
 					<ArrowIcon />
 				</a>
