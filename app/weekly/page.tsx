@@ -4,8 +4,9 @@ import { allBlogs } from 'contentlayer/generated';
 import { ArrowIcon } from 'components/icons';
 
 export const metadata: Metadata = {
-	title: 'Blog',
-	description: 'Read my thoughts on software development, design, and more.',
+	title: 'Weekly',
+	description:
+		'I am sharing a short post on what I’ve been reading, watching, and learning as well as a few favourite links from the web every week.',
 };
 
 export default async function BlogPage() {

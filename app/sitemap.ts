@@ -6,7 +6,7 @@ export default async function sitemap() {
 		lastModified: post.publishedAt,
 	}));
 
-	const routes = ['', '/about', '/blog'].map(route => ({
+	const routes = ['', '/about', '/weekly'].map(route => ({
 		url: `https://nurcin.dev${route}`,
 		lastModified: new Date().toISOString().split('T')[0],
 	}));
