@@ -8,6 +8,7 @@
 		"setup": "node ./lib/setup.mjs"
 	},
 	"dependencies": {
+		"@mailchimp/mailchimp_marketing": "^3.0.80",
 		"@octokit/rest": "^19.0.7",
 		"@planetscale/database": "^1.5.0",
 		"@vercel/analytics": "^0.1.11",
@@ -26,6 +27,7 @@
 		"next-contentlayer": "^0.3.0",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
+		"react-hot-toast": "^2.4.1",
 		"react-wrap-balancer": "^0.4.0",
 		"rehype-autolink-headings": "^6.1.1",
 		"rehype-pretty-code": "^0.9.2",
