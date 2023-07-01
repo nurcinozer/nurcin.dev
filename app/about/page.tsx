@@ -2,7 +2,7 @@ import { ArrowIcon } from 'components/icons';
 
 export default function AboutPage() {
 	return (
-		<section className="border border-neutral-200 dark:border-neutral-800 rounded-lg p-8">
+		<section className="border border-neutral-200 dark:border-neutral-800 rounded-lg md:p-8 p-4">
 			<h1 className="font-bold text-3xl font-serif">About Me</h1>
 			<p className="my-5 text-neutral-800 dark:text-neutral-200">
 				I'm a{' '}
