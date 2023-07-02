@@ -63,7 +63,7 @@ export default function Subscription() {
 					onChange={e => setEmailInput(e.target.value)}
 					type="email"
 					placeholder="Your email"
-					className="border border-neutral-800 bg-transparent rounded-lg px-4 py-2 md:w-2/3 w-full outline-none placeholder-neutral-200"
+					className="border border-neutral-200 dark:border-neutral-800 bg-transparent rounded-lg px-4 py-2 md:w-2/3 w-full outline-none placeholder-neutral-200"
 					required
 				/>
 				<button
