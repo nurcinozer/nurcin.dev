@@ -15,6 +15,7 @@ export default async function handler(
 				status: 'subscribed',
 			},
 		],
+		update_existing: true,
 	};
 	try {
 		const audienceId = process.env.MAILCHIMP_AUDIENCE_ID as string;
