@@ -37,8 +37,28 @@ export const bio = () => {
 				rel="noopener noreferrer">
 				<b>watch movies</b>
 			</a>
-			. I also enjoy watching sports. When I have free time, I like to
-			visit new places.
+			. I also enjoy watching sports. My favorite teams are{' '}
+			<a
+				href="https://www.galatasaray.org/en/Homepage"
+				target="_blank"
+				rel="noopener noreferrer">
+				<b>Galatasaray</b>
+			</a>
+			,{' '}
+			<a
+				href="https://www.eczacibasisporkulubu.org.tr/en"
+				target="_blank"
+				rel="noopener noreferrer">
+				<b>Eczacıbaşı</b>
+			</a>
+			, and{' '}
+			<a
+				href="https://www.arsenal.com/women"
+				target="_blank"
+				rel="noopener noreferrer">
+				<b>Arsenal Women</b>
+			</a>
+			.
 		</>
 	);
 };
