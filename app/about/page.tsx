@@ -22,10 +22,10 @@ export default function AboutPage() {
 			<hr className="my-8 border-neutral-200 dark:border-neutral-700" />
 
 			<p className="my-5 text-neutral-800 dark:text-neutral-200">
-				From a young age, I've been immersed in the world of technology,
-				starting with web designing at 11-12 years old. This naturally
-				led me to coding, where I discovered my true passion for
-				programming.
+				Since I was young, I've been deeply involved in the world of
+				technology, beginning with web designing when I was 11-12 years
+				old. This naturally led me to coding, where I found my genuine
+				love for programming.
 			</p>
 
 			<p className="my-5 text-neutral-800 dark:text-neutral-200">
