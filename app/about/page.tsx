@@ -5,18 +5,8 @@ export default function AboutPage() {
 		<section className="border border-neutral-200 dark:border-neutral-800 rounded-lg md:p-8 p-4">
 			<h1 className="font-bold text-3xl font-serif">About Me</h1>
 			<p className="my-5 text-neutral-800 dark:text-neutral-200">
-				I'm a{' '}
-				<b>
-					Frontend Engineer at{' '}
-					<a
-						href="https://winden.co"
-						target="_blank"
-						rel="noopener noreferrer">
-						Winden
-					</a>{' '}
-				</b>{' '}
-				where my role involves helping build a more efficient and
-				user-friendly web experience.
+				I'm a <b>Frontend Engineer</b>, and my role involves helping to
+				build a more efficient and user-friendly web experience.
 			</p>
 
 			<hr className="my-8 border-neutral-200 dark:border-neutral-700" />
@@ -39,13 +29,6 @@ export default function AboutPage() {
 				<b>GraphQL</b>. Additionally, I have strong proficiency in{' '}
 				<b>system design</b> and <b>refactoring</b>, ensuring efficient
 				and scalable code.
-			</p>
-
-			<p className="my-5 text-neutral-800 dark:text-neutral-200">
-				I have the opportunity to create practical and impactful
-				solutions. For example, during my current role at Winden, I
-				developed a system for managing contacts and generating
-				invoices, streamlining workflows and enhancing efficiency.
 			</p>
 
 			<p className="my-5 text-neutral-800 dark:text-neutral-200">

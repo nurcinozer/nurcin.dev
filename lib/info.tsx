@@ -5,18 +5,9 @@ export const avatar = me;
 export const about = () => {
 	return (
 		<>
-			Hey, I'm Nurçin. I'm a{' '}
-			<b>
-				Frontend Engineer at{' '}
-				<a
-					href="https://winden.co"
-					target="_blank"
-					rel="noopener noreferrer">
-					Winden
-				</a>
-			</b>{' '}
-			where my role involves helping build a more efficient and
-			user-friendly web experience.
+			Hey, I'm Nurçin. I'm a <b>Frontend Engineer</b>, and my role
+			involves helping to build a more efficient and user-friendly web
+			experience.
 		</>
 	);
 };
