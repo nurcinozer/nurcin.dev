@@ -5,6 +5,7 @@ import {
 	ArrowIcon,
 	GitHubIcon,
 	BookmarkIcon,
+	LinkedinIcon,
 } from 'components/icons';
 // import { getRaindropBookmarks } from 'lib/metrics';
 
@@ -62,6 +63,19 @@ export default async function HomePage() {
 					<div className="flex items-center">
 						<GitHubIcon />
 						<div className="ml-3">My projects</div>
+					</div>
+					<ArrowIcon />
+				</a>
+			</div>
+			<div className="flex flex-col md:flex-row gap-2 md:gap-2 mt-5">
+				<a
+					rel="noopener noreferrer"
+					target="_blank"
+					href="https://www.linkedin.com/in/nurcin/"
+					className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between">
+					<div className="flex items-center">
+						<LinkedinIcon />
+						<div className="ml-3">My experiences</div>
 					</div>
 					<ArrowIcon />
 				</a>
