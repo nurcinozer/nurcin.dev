@@ -28,7 +28,7 @@ export default function Navbar() {
 			<div className="lg:sticky lg:top-20">
 				<LayoutGroup>
 					<nav
-						className="flex flex-row md:flex-col items-start relative px-4 md:px-0 md:mt-0 mt-12 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
+						className="flex flex-row md:flex-col items-start relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
 						id="nav">
 						<div className="flex flex-row md:flex-col space-x-0 pr-10 mb-2 mt-2 md:mt-0">
 							{Object.entries(navItems).map(

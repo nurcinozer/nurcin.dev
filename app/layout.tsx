@@ -70,7 +70,7 @@ export default async function RootLayout({
 				'text-black bg-white dark:text-white dark:bg-[#111010]',
 				kaisei.variable,
 			)}>
-			<body className="antialiased max-w-4xl mb-40 flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto">
+			<body className="antialiased max-w-4xl mb-40 flex flex-col md:flex-row mx-4 mt-20 lg:mx-auto">
 				<Sidebar />
 				{/* <Spotify /> */}
 				<div className="flex flex-col">
